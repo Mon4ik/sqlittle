@@ -14,4 +14,7 @@ sqlittle -h
 git clone https://github.com/Mon4ik/sqlittle.git
 cd sqlittle
 python3 setup.py develop
+
+sqlittle -h
+# Yey!
 ```

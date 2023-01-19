@@ -7,7 +7,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name='sqlittle',
-    version='0.0.1',
+    version='0.0.3',
     author='Dmitry Bondarenko',
     author_email='dimbnk@gmail.com',
     license='MIT',
