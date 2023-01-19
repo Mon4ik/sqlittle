@@ -2,12 +2,11 @@ from setuptools import setup, find_packages
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
-with open("requirements.txt", "r", encoding="utf-8") as fh:
-    requirements = fh.read()
+
 
 setup(
     name='sqlittle',
-    version='0.0.3',
+    version='0.0.4',
     author='Dmitry Bondarenko',
     author_email='dimbnk@gmail.com',
     license='MIT',
@@ -16,7 +15,7 @@ setup(
     long_description_content_type="text/markdown",
     url='https://github.com/Mon4ik/sqlittle',
     packages=find_packages(),
-    install_requires=[requirements],
+    install_requires=["rich"],
     python_requires='>=3.7',
     classifiers=[
         "Programming Language :: Python :: 3.8",
